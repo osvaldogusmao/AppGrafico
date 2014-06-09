@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grafico</string>
+    <string name="data">Data</string>
+    <string name="selecionarData">Selecionar Data</string>
+    <string name="limpar">Limpar</string>
+    <string name="selecionarDataInicial">Inicial</string>
+    <string name="selecionarDataFinal">Final</string>
+    <string name="Grafico">Gráfico</string>
+</resources>

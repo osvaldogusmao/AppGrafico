@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2">
+
+        <TableRow>
+
+            <Button
+                    android:id="@+id/btnSelecionarDataInicial"
+                    android:onClick="selecionarDataInicial"
+                    android:text="@string/selecionarDataInicial"/>
+
+            <Button
+                    android:id="@+id/btnSelecionarDataFinal"
+                    android:onClick="selecionarDataFinal"
+                    android:text="@string/selecionarDataFinal"/>
+
+            <Button
+                    android:id="@+id/btnLimpar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/limpar"
+                    android:onClick="limparListView"
+                    />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 android:stretchColumns="0">
+
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+            <TableRow>
+
+                <Button
+                        android:id="@+id/btnGrafico"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Grafico"
+                        android:onClick="exibirGrafico"
+                        />
+
+            </TableRow>
+
+        </TableLayout>
+    </TableLayout>
+
+    <TableLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:stretchColumns="0">
+
+        <TableRow>
+
+            <ListView
+                    android:id="@+id/lsVendas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+            </ListView>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+
